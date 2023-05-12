@@ -1,0 +1,45 @@
+body {
+    height: 2000px;
+}
+
+* {
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    border: 5px solid rgb(19, 19, 20);
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+
+}
+
+.child-div {
+    margin: 50px 10px;
+    background-color: gray;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    color: antiquewhite;
+    height: 100px;
+
+
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 5px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+.link {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+
+}
